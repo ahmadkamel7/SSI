@@ -86,7 +86,7 @@ a:hover {
     color: white;
 }
 
-@media screen and (min-width: 382px) {
+@media (min-width: 382px) {
     h1 {
         font-size: 16vw;
     }
@@ -96,7 +96,7 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 382px) {
+@media (min-width: 382px) {
     h1 {
         font-size: 16vw;
     }
@@ -106,7 +106,7 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 500px) {
+@media (min-width: 500px) {
     div {
         height: 470px;
     }
@@ -125,7 +125,7 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media (min-width: 800px) {
 
     h1 {
         font-size: 8em;
