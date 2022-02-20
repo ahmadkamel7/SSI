@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Domine:wght@400;500;600;700&family=Rye&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Neonderthaw&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, /* #FFFFFF 0%, */ #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
+
+header {
+    text-align: center;
+    margin: 15px 50px 50px 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 0 15px 15px 15px;
+    background-color: black;
+}
+
+hr {
+    width: 100%;
+}
+
+h1 {
+    font: normal 700 4em 'Imperial Script', cursive;
+    color: #493d20;
+}
+
+h2 {
+    font: normal 700 1em 'Domine', serif;
+    color: #493d20;
+    margin-top: 15px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.nome-do-album {
+    font: normal 700 1.3em 'Domine', serif;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.ano-de-lançamento, a {
+    font: normal 700 0.8em 'Domine', serif;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+    color: #9f7928;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.texto-footer {
+    font: normal 700 0.8em 'Domine', serif;
+    padding-top: 20px;
+    color: white;
+}
+
+@media screen and (min-width: 382px) {
+    h1 {
+        font-size: 16vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 382px) {
+    h1 {
+        font-size: 16vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    div {
+        height: 470px;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .nome-do-album {
+        font-size: 1.6em;
+    }
+
+    .ano-de-lançamento, a, .texto-footer {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    h1 {
+        font-size: 8em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
